@@ -6,7 +6,7 @@
 /*   By: sshimizu <sshimizu@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/11 00:51:14 by sshimizu          #+#    #+#             */
-/*   Updated: 2023/02/27 23:44:53 by sshimizu         ###   ########.fr       */
+/*   Updated: 2023/05/08 01:20:28 by sshimizu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -78,7 +78,6 @@ t_list				*ft_lstmap(t_list *lst, void *(*f)(void *),
 int					ft_printf(const char *str, ...);
 void				*ft_free(void **p);
 void				ft_swap(int *a, int *b);
-void				ft_bubble_sort(int *array, size_t size);
 int					ft_min(int a, int b);
 int					ft_max(int a, int b);
 int					ft_search_index(int val, int *array, int size);
